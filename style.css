@@ -1,0 +1,101 @@
+html, body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    position: relative;
+    vertical-align: baselin
+}
+
+.about, .skills, .education,
+.languages, .contact, .experience{
+    padding: 40px;
+    min-height: 330px;
+}
+.about, .skills,
+.education, .languages,
+.contact, .experience{
+    margin-top: 30px;
+}
+
+header{
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+
+header img{
+    border: 3px solid deepskyblue;
+    padding: 5px;
+}
+
+header h2{
+    padding-top: 40px;
+}
+
+.about{
+    background-color: white;
+}
+
+.skills{
+    background-color: #766cff94;
+    color: white;
+}
+
+.skills strong{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.education{
+    background-color: #766cff94;
+    color: white;
+}
+
+.languages{
+    background-color: white;
+}
+
+.languages ul{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.contact{
+    background-color: white;
+}
+
+.contact p{
+    margin-top: 25px;
+}
+
+.experience{
+    background-color: #766cff94;
+    color: white;
+}
+
+.experience-content{
+    padding-bottom: 14px;
+}
+
+.social-media li{
+    display: inline;
+}
+
+.social-media{
+    padding: 0;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p{
+    line-height: 0px;
+}
